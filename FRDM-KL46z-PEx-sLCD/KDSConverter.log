@@ -1,0 +1,218 @@
+CodeWarrior to KDS project migration assistant
+Converter replacement: replaceID:
+old line=<cconfiguration id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.debug.30624607">
+New line=<cconfiguration id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.30624607">
+Converter replacement: replaceID:
+old line=<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.debug.30624607" moduleId="org.eclipse.cdt.core.settings" name="FLASH">
+New line=<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.30624607" moduleId="org.eclipse.cdt.core.settings" name="FLASH">
+Converter replacement: replaceArtifactName:
+old line=<configuration artifactName="FRDM-KL46z-PEx-sLCD" buildArtefactType="org.eclipse.cdt.cross.arm.gnu.buildArtefactType.application" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.cross.arm.gnu.buildArtefactType.application" buildReferences="true" buildReferencingConfigurations="false" description="" id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.debug.30624607" isPrebuildInvalidatingBuild="false" name="FLASH" parent="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.debug" produceBuildErrorsWithMissingReferences="true">
+New line=<configuration artifactName="FRDM-KL46z-PEx-sLCD" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.cross.arm.gnu.buildArtefactType.application" buildReferences="true" buildReferencingConfigurations="false" description="" id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.debug.30624607" isPrebuildInvalidatingBuild="false" name="FLASH" parent="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.debug" produceBuildErrorsWithMissingReferences="true">
+Converter replacement: replaceArtifactName:
+old line=<configuration artifactName="FRDM-KL46z-PEx-sLCD" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.cross.arm.gnu.buildArtefactType.application" buildReferences="true" buildReferencingConfigurations="false" description="" id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.debug.30624607" isPrebuildInvalidatingBuild="false" name="FLASH" parent="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.debug" produceBuildErrorsWithMissingReferences="true">
+New line=<configuration artifactName="FRDM-KL46z-PEx-sLCD" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" buildReferences="true" buildReferencingConfigurations="false" description="" id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.debug.30624607" isPrebuildInvalidatingBuild="false" name="FLASH" parent="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.debug" produceBuildErrorsWithMissingReferences="true">
+Converter replacement: replaceID:
+old line=<configuration artifactName="FRDM-KL46z-PEx-sLCD" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" buildReferences="true" buildReferencingConfigurations="false" description="" id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.debug.30624607" isPrebuildInvalidatingBuild="false" name="FLASH" parent="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.debug" produceBuildErrorsWithMissingReferences="true">
+New line=<configuration artifactName="FRDM-KL46z-PEx-sLCD" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" buildReferences="true" buildReferencingConfigurations="false" description="" id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.30624607" isPrebuildInvalidatingBuild="false" name="FLASH" parent="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug" produceBuildErrorsWithMissingReferences="true">
+Converter replacement: replaceID:
+old line=<folderInfo id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.debug.30624607." name="/" resourcePath="">
+New line=<folderInfo id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.30624607." name="/" resourcePath="">
+Converter replacement: replaceOptionIDAndValue:
+old line=<option id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.option.debugging.level.1671551554" name="Debug level" superClass="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.option.debugging.level" value="org.eclipse.cdt.cross.arm.gnu.base.option.debugging.level.max" valueType="enumerated"/>
+New line=<option id="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.level.1671551554" name="Debug level" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.level" value="org.eclipse.cdt.cross.arm.gnu.base.option.debugging.level.max" valueType="enumerated"/>
+Converter replacement: replaceOptionIDAndValue:
+old line=<option id="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.level.1671551554" name="Debug level" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.level" value="org.eclipse.cdt.cross.arm.gnu.base.option.debugging.level.max" valueType="enumerated"/>
+New line=<option id="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.level.1671551554" name="Debug level" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.level" value="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.level.max" valueType="enumerated"/>
+Converter replacement: replaceOptionIDAndValue:
+old line=<option id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.option.target.processor.406285027" name="Processor" superClass="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.option.target.processor" value="org.eclipse.cdt.cross.arm.gnu.base.option.mcpu.cortex-m0" valueType="enumerated"/>
+New line=<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.family.406285027" name="Processor" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.family" value="org.eclipse.cdt.cross.arm.gnu.base.option.mcpu.cortex-m0" valueType="enumerated"/>
+Converter replacement: replaceOptionIDAndValue:
+old line=<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.family.406285027" name="Processor" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.family" value="org.eclipse.cdt.cross.arm.gnu.base.option.mcpu.cortex-m0" valueType="enumerated"/>
+New line=<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.family.406285027" name="Processor" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.family" value="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.mcpu.default" valueType="enumerated"/>
+Converter replacement: replaceEntireLine:
+old line=<option id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.toolchain.sharedoption.librarian.2044920734" name="Enable automatic library configurations" superClass="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.toolchain.sharedoption.librarian" value="true" valueType="boolean"/>
+New line=
+Converter replacement: replaceOptionID:
+old line=<option id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.option.debugging.other.217034738" name="Other debugging flags" superClass="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.option.debugging.other" value="-gstrict-dwarf" valueType="string"/>
+New line=<option id="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.other.217034738" name="Other debugging flags" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.other" value="-gstrict-dwarf" valueType="string"/>
+Converter replacement: replaceSuperClass:
+old line=<targetPlatform id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.platform.debug.180889475" isAbstract="false" name="Windows Platform" superClass="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.platform.debug"/>
+New line=<targetPlatform id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.platform.debug.180889475" isAbstract="false" name="Windows Platform" superClass="ilg.gnuarmeclipse.managedbuild.cross.targetPlatform"/>
+Converter replacement: replaceSuperClass:
+old line=<builder buildPath="${ProjDirPath}/FLASH" id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.builder.debug.1355425795" keepEnvironmentInBuildfile="false" name="ARM Ltd Windows GNU Make builder" parallelBuildWorkspaceOn="true" parallelizationNumber="-1" superClass="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.builder.debug"/>
+New line=<builder buildPath="${ProjDirPath}/FLASH" id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.builder.debug.1355425795" keepEnvironmentInBuildfile="false" name="ARM Ltd Windows GNU Make builder" parallelBuildWorkspaceOn="true" parallelizationNumber="-1" superClass="ilg.gnuarmeclipse.managedbuild.cross.builder"/>
+Converter replacement: replaceSuperClass:
+old line=<tool id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.assembler.debug.1105418002" name="ARM Ltd Windows GCC Assembler" superClass="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.assembler.debug">
+New line=<tool id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.assembler.debug.1105418002" name="ARM Ltd Windows GCC Assembler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler">
+Converter replacement: Tool Name:
+old line=<tool id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.assembler.debug.1105418002" name="ARM Ltd Windows GCC Assembler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler">
+New line=<tool id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.assembler.debug.1105418002" name="Cross ARM GNU Assembler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler">
+Converter replacement: replaceEntireLine:
+old line=<option id="org.eclipse.cdt.cross.arm.gnu.assembler.option.misc.enable.lstfilename.1570528251" name="Enable Assembler Listing" superClass="org.eclipse.cdt.cross.arm.gnu.assembler.option.misc.enable.lstfilename" value="false" valueType="boolean"/>
+New line=
+Converter replacement: replaceSuperClass:
+old line=<option id="org.eclipse.cdt.cross.arm.gnu.assembler.option.include.paths.1010059409" name="Include paths (-I)" superClass="org.eclipse.cdt.cross.arm.gnu.assembler.option.include.paths" valueType="includePath">
+New line=<option id="org.eclipse.cdt.cross.arm.gnu.assembler.option.include.paths.1010059409" name="Include paths (-I)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.include.paths" valueType="includePath">
+Converter replacement: replaceSuperClass:
+old line=<inputType id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.assembler.base.input.187063298" superClass="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.assembler.base.input"/>
+New line=<inputType id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.assembler.base.input.187063298" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.input"/>
+Converter replacement: replaceSuperClass:
+old line=<tool id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.c.compiler.debug.587824472" name="ARM Ltd Windows GCC C Compiler" superClass="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.c.compiler.debug">
+New line=<tool id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.c.compiler.debug.587824472" name="ARM Ltd Windows GCC C Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler">
+Converter replacement: Tool Name:
+old line=<tool id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.c.compiler.debug.587824472" name="ARM Ltd Windows GCC C Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler">
+New line=<tool id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.c.compiler.debug.587824472" name="Cross ARM C Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler">
+Converter replacement: replaceEntireLine:
+old line=<option id="org.eclipse.cdt.cross.arm.gnu.c.compiler.option.optimization.level.178903992" name="Optimization level" superClass="org.eclipse.cdt.cross.arm.gnu.c.compiler.option.optimization.level" value="org.eclipse.cdt.cross.arm.gnu.base.option.optimization.level.none" valueType="enumerated"/>
+New line=
+Converter replacement: replaceEntireLine:
+old line=<option id="org.eclipse.cdt.cross.arm.gnu.c.compiler.option.misc.enable.lstfilename.364498513" name="Enable Assembler Listing" superClass="org.eclipse.cdt.cross.arm.gnu.c.compiler.option.misc.enable.lstfilename" value="false" valueType="boolean"/>
+New line=
+Converter replacement: replaceSuperClass:
+old line=<option id="org.eclipse.cdt.cross.arm.gnu.c.compiler.option.include.paths.1447052690" name="Include paths (-I)" superClass="org.eclipse.cdt.cross.arm.gnu.c.compiler.option.include.paths" valueType="includePath">
+New line=<option id="org.eclipse.cdt.cross.arm.gnu.c.compiler.option.include.paths.1447052690" name="Include paths (-I)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.paths" valueType="includePath">
+Converter replacement: replaceEntireLine:
+old line=<option id="org.eclipse.cdt.cross.arm.gnu.c.compiler.option.optimization.functionsections.1044319673" name="Function sections (-ffunction-sections)" superClass="org.eclipse.cdt.cross.arm.gnu.c.compiler.option.optimization.functionsections" value="true" valueType="boolean"/>
+New line=
+Converter replacement: replaceEntireLine:
+old line=<option id="org.eclipse.cdt.cross.arm.gnu.c.compiler.option.optimization.datasections.1952826827" name="Data sections (-fdata-sections)" superClass="org.eclipse.cdt.cross.arm.gnu.c.compiler.option.optimization.datasections" value="true" valueType="boolean"/>
+New line=
+Converter replacement: replaceSuperClass:
+old line=<inputType id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.c.compiler.base.input.1294051277" name="ARM Ltd Windows GCC C Compiler" superClass="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.c.compiler.base.input"/>
+New line=<inputType id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.c.compiler.base.input.1294051277" name="ARM Ltd Windows GCC C Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input"/>
+Converter replacement: Tool Name:
+old line=<inputType id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.c.compiler.base.input.1294051277" name="ARM Ltd Windows GCC C Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input"/>
+New line=<inputType id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.c.compiler.base.input.1294051277" name="Cross ARM C Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input"/>
+Converter replacement: replaceSuperClass:
+old line=<tool id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.cpp.compiler.debug.312542400" name="ARM Ltd Windows GCC C++ Compiler" superClass="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.cpp.compiler.debug">
+New line=<tool id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.cpp.compiler.debug.312542400" name="ARM Ltd Windows GCC C++ Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler">
+Converter replacement: Tool Name:
+old line=<tool id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.cpp.compiler.debug.312542400" name="ARM Ltd Windows GCC C++ Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler">
+New line=<tool id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.cpp.compiler.debug.312542400" name="Cross ARM C++ Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler">
+Converter replacement: replaceEntireLine:
+old line=<option id="org.eclipse.cdt.cross.arm.gnu.cpp.compiler.option.optimization.level.767837504" name="Optimization level" superClass="org.eclipse.cdt.cross.arm.gnu.cpp.compiler.option.optimization.level" value="org.eclipse.cdt.cross.arm.gnu.base.option.optimization.level.none" valueType="enumerated"/>
+New line=
+Converter replacement: replaceEntireLine:
+old line=<option id="org.eclipse.cdt.cross.arm.gnu.cpp.compiler.option.misc.enable.lstfilename.1775097705" name="Enable Assembler Listing" superClass="org.eclipse.cdt.cross.arm.gnu.cpp.compiler.option.misc.enable.lstfilename" value="false" valueType="boolean"/>
+New line=
+Converter replacement: replaceSuperClass:
+old line=<tool id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.c.linker.debug.383444690" name="ARM Ltd Windows GCC C Linker" superClass="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.c.linker.debug">
+New line=<tool id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.c.linker.debug.383444690" name="ARM Ltd Windows GCC C Linker" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker">
+Converter replacement: Tool Name:
+old line=<tool id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.c.linker.debug.383444690" name="ARM Ltd Windows GCC C Linker" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker">
+New line=<tool id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.c.linker.debug.383444690" name="Cross ARM C Linker" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker">
+Converter replacement: replaceSuperClass:
+old line=<option id="org.eclipse.cdt.cross.arm.gnu.c.link.option.otherflags.1148160407" name="Other flags" superClass="org.eclipse.cdt.cross.arm.gnu.c.link.option.otherflags" value="-n" valueType="string"/>
+New line=<option id="org.eclipse.cdt.cross.arm.gnu.c.link.option.otherflags.1148160407" name="Other flags" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.other" value="-n" valueType="string"/>
+Converter replacement: replaceSuperClass:
+old line=<option id="org.eclipse.cdt.cross.arm.gnu.c.link.option.nostart.905749988" name="Do not use standard start files (-nostartfiles)" superClass="org.eclipse.cdt.cross.arm.gnu.c.link.option.nostart" value="false" valueType="boolean"/>
+New line=<option id="org.eclipse.cdt.cross.arm.gnu.c.link.option.nostart.905749988" name="Do not use standard start files (-nostartfiles)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.nostart" value="false" valueType="boolean"/>
+Converter replacement: replaceSuperClass:
+old line=<option id="org.eclipse.cdt.cross.arm.gnu.c.link.option.gcsections.174870988" name="Remove unused sections (-Xlinker --gc-sections)" superClass="org.eclipse.cdt.cross.arm.gnu.c.link.option.gcsections" value="true" valueType="boolean"/>
+New line=<option id="org.eclipse.cdt.cross.arm.gnu.c.link.option.gcsections.174870988" name="Remove unused sections (-Xlinker --gc-sections)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.gcsections" value="true" valueType="boolean"/>
+Converter replacement: replaceSuperClass:
+old line=<option id="org.eclipse.cdt.cross.arm.gnu.c.link.option.paths.1752335861" name="Library search path (-L)" superClass="org.eclipse.cdt.cross.arm.gnu.c.link.option.paths" valueType="libPaths">
+New line=<option id="org.eclipse.cdt.cross.arm.gnu.c.link.option.paths.1752335861" name="Library search path (-L)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.paths" valueType="libPaths">
+Converter replacement: replaceSuperClass:
+old line=<option id="org.eclipse.cdt.cross.arm.gnu.c.link.option.scriptfile.1055985234" name="Script file (-T)" superClass="org.eclipse.cdt.cross.arm.gnu.c.link.option.scriptfile" value="${ProjDirPath}/Project_Settings/Linker_Files/ProcessorExpert.ld" valueType="string"/>
+New line=<option id="org.eclipse.cdt.cross.arm.gnu.c.link.option.scriptfile.1055985234" name="Script file (-T)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.scriptfile" value="${ProjDirPath}/Project_Settings/Linker_Files/ProcessorExpert.ld" valueType="string"/>
+Converter replacement: replaceSuperClass:
+old line=<inputType id="org.eclipse.cdt.cross.arm.gnu.c.linker.input.872790823" superClass="org.eclipse.cdt.cross.arm.gnu.c.linker.input">
+New line=<inputType id="org.eclipse.cdt.cross.arm.gnu.c.linker.input.872790823" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.input">
+Converter replacement: replaceSuperClass:
+old line=<tool id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.cpp.linker.debug.1925835750" name="ARM Ltd Windows GCC C++ Linker" superClass="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.cpp.linker.debug"/>
+New line=<tool id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.cpp.linker.debug.1925835750" name="ARM Ltd Windows GCC C++ Linker" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.linker"/>
+Converter replacement: Tool Name:
+old line=<tool id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.cpp.linker.debug.1925835750" name="ARM Ltd Windows GCC C++ Linker" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.linker"/>
+New line=<tool id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.cpp.linker.debug.1925835750" name="Cross ARM C++ Linker" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.linker"/>
+Converter replacement: replaceSuperClass:
+old line=<tool id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.archiver.base.1068606449" name="ARM Ltd Windows GCC Archiver" superClass="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.archiver.base"/>
+New line=<tool id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.archiver.base.1068606449" name="ARM Ltd Windows GCC Archiver" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.archiver"/>
+Converter replacement: Tool Name:
+old line=<tool id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.archiver.base.1068606449" name="ARM Ltd Windows GCC Archiver" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.archiver"/>
+New line=<tool id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.archiver.base.1068606449" name="Cross ARM GNU Archiver" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.archiver"/>
+Converter replacement: single line:Remove entire tool: disassembler:
+old line=<tool id="com.freescale.cdt.cross.arm.gnu.sourcery.windows.elf.disassembler.debug.958459086" name="ARM Ltd Windows GCC Disassembler" superClass="com.freescale.cdt.cross.arm.gnu.sourcery.windows.elf.disassembler.debug"/>
+New line=
+Converter replacement: multiline:Remove entire tool: c preprocessor:
+old line=<tool id="com.freescale.cdt.cross.arm.gnu.sourcery.windows.elf.preprocessor.debug.321987822" name="ARM Ltd Windows GCC C Preprocessor" superClass="com.freescale.cdt.cross.arm.gnu.sourcery.windows.elf.preprocessor.debug">
+New line=
+Converter replacement: multiline CONTINUING:Remove entire tool: c preprocessor:
+old line=<option id="com.freescale.cdt.cross.arm.gnu.preprocessor.dirs.include.paths.82424795" name="Include paths (-I)" superClass="com.freescale.cdt.cross.arm.gnu.preprocessor.dirs.include.paths" valueType="includePath">
+New line=
+Converter replacement: multiline CONTINUING:Remove entire tool: c preprocessor:
+old line=<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Project_Headers&quot;"/>
+New line=
+Converter replacement: multiline CONTINUING:Remove entire tool: c preprocessor:
+old line=<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Project_Settings/Startup_Code&quot;"/>
+New line=
+Converter replacement: multiline CONTINUING:Remove entire tool: c preprocessor:
+old line=<listOptionValue builtIn="false" value="&quot;${MCUToolsBaseDir}/ARM_GCC_Support/ewl/EWL_C/include&quot;"/>
+New line=
+Converter replacement: multiline CONTINUING:Remove entire tool: c preprocessor:
+old line=<listOptionValue builtIn="false" value="&quot;${MCUToolsBaseDir}/ARM_GCC_Support/ewl/EWL_Runtime/include&quot;"/>
+New line=
+Converter replacement: multiline CONTINUING:Remove entire tool: c preprocessor:
+old line=</option>
+New line=
+Converter replacement: multiline CONTINUING:Remove entire tool: c preprocessor:
+old line=<inputType id="com.freescale.cdt.cross.arm.gnu.preprocessor.source.372403577" name="Preprocessor Input" superClass="com.freescale.cdt.cross.arm.gnu.preprocessor.source"/>
+New line=
+Converter replacement: multiline COMPLETE:Remove entire tool: c preprocessor:
+old line=</tool>
+New line=
+Converter replacement: multiline:Remove entire tool: cpp preprocessor:
+old line=<tool id="com.freescale.cdt.cross.arm.gnu.sourcery.windows.elf.cpp.preprocessor.debug.1677708927" name="ARM Ltd Windows GCC C++ Preprocessor" superClass="com.freescale.cdt.cross.arm.gnu.sourcery.windows.elf.cpp.preprocessor.debug">
+New line=
+Converter replacement: multiline CONTINUING:Remove entire tool: cpp preprocessor:
+old line=<option id="com.freescale.cdt.cross.arm.gnu.preprocessor.dirs.include.paths.1204654492" name="Include paths (-I)" superClass="com.freescale.cdt.cross.arm.gnu.preprocessor.dirs.include.paths" valueType="includePath">
+New line=
+Converter replacement: multiline CONTINUING:Remove entire tool: cpp preprocessor:
+old line=<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Project_Headers&quot;"/>
+New line=
+Converter replacement: multiline CONTINUING:Remove entire tool: cpp preprocessor:
+old line=<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Project_Settings/Startup_Code&quot;"/>
+New line=
+Converter replacement: multiline CONTINUING:Remove entire tool: cpp preprocessor:
+old line=<listOptionValue builtIn="false" value="&quot;${MCUToolsBaseDir}/ARM_GCC_Support/ewl/EWL_C/include&quot;"/>
+New line=
+Converter replacement: multiline CONTINUING:Remove entire tool: cpp preprocessor:
+old line=<listOptionValue builtIn="false" value="&quot;${MCUToolsBaseDir}/ARM_GCC_Support/ewl/EWL_Runtime/include&quot;"/>
+New line=
+Converter replacement: multiline CONTINUING:Remove entire tool: cpp preprocessor:
+old line=</option>
+New line=
+Converter replacement: multiline COMPLETE:Remove entire tool: cpp preprocessor:
+old line=</tool>
+New line=
+Converter replacement: replaceSuperClass:
+old line=<tool id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.createflash.debug.1574887614" name="ARM Ltd Windows GNU Create Flash Image" superClass="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.createflash.debug"/>
+New line=<tool id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.createflash.debug.1574887614" name="ARM Ltd Windows GNU Create Flash Image" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.createflash"/>
+Converter replacement: Tool Name:
+old line=<tool id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.createflash.debug.1574887614" name="ARM Ltd Windows GNU Create Flash Image" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.createflash"/>
+New line=<tool id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.createflash.debug.1574887614" name="Cross ARM GNU Create Flash Image" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.createflash"/>
+Converter replacement: replaceSuperClass:
+old line=<tool id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.createlisting.debug.161030903" name="ARM Ltd Windows GNU Create Listing" superClass="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.createlisting.debug"/>
+New line=<tool id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.createlisting.debug.161030903" name="ARM Ltd Windows GNU Create Listing" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.createlisting"/>
+Converter replacement: Tool Name:
+old line=<tool id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.createlisting.debug.161030903" name="ARM Ltd Windows GNU Create Listing" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.createlisting"/>
+New line=<tool id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.createlisting.debug.161030903" name="Cross ARM GNU Create Listing" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.createlisting"/>
+Converter replacement: replaceSuperClass:
+old line=<tool id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.printsize.debug.493692041" name="ARM Ltd Windows GNU Print Size" superClass="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.printsize.debug"/>
+New line=<tool id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.printsize.debug.493692041" name="ARM Ltd Windows GNU Print Size" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.printsize"/>
+Converter replacement: Tool Name:
+old line=<tool id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.printsize.debug.493692041" name="ARM Ltd Windows GNU Print Size" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.printsize"/>
+New line=<tool id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.printsize.debug.493692041" name="Cross ARM GNU Print Size" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.printsize"/>
+Converter replacement: replaceID:
+old line=<fileInfo id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.debug.30624607..settings/com.freescale.processorexpert.core.prefs" name="com.freescale.processorexpert.core.prefs" rcbsApplicability="disable" resourcePath=".settings/com.freescale.processorexpert.core.prefs" toolsToInvoke=""/>
+New line=<fileInfo id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.30624607..settings/com.freescale.processorexpert.core.prefs" name="com.freescale.processorexpert.core.prefs" rcbsApplicability="disable" resourcePath=".settings/com.freescale.processorexpert.core.prefs" toolsToInvoke=""/>
+Converter replacement: projectTytpe:
+old line=<project id="hello_world.org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.916498525" name="ARM Cross Target Application" projectType="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf"/>
+New line=<project id="hello_world.org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.916498525" name="ARM Cross Target Application" projectType="ilg.gnuarmeclipse.managedbuild.cross.target.elf"/>
+Converter replacement: replaceID:
+old line=<scannerConfigBuildInfo instanceId="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.debug.30624607;org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.debug.30624607.;org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.c.compiler.debug.587824472;org.eclipse.cdt.cross.arm.gnu.sourcery.windows.c.compiler.base.input.1294051277">
+New line=<scannerConfigBuildInfo instanceId="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.30624607;ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.30624607.;org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.c.compiler.debug.587824472;org.eclipse.cdt.cross.arm.gnu.sourcery.windows.c.compiler.base.input.1294051277">
+Converter replacement: replaceID:
+old line=<scannerConfigBuildInfo instanceId="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.debug.30624607;org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.debug.30624607.;org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.assembler.debug.1105418002;org.eclipse.cdt.cross.arm.gnu.sourcery.windows.assembler.base.input.187063298">
+New line=<scannerConfigBuildInfo instanceId="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.30624607;ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.30624607.;org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.assembler.debug.1105418002;org.eclipse.cdt.cross.arm.gnu.sourcery.windows.assembler.base.input.187063298">
+CodeWarrior to KDS project migration assistant: conversion complete.
