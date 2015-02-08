@@ -35,113 +35,94 @@
     <FLASHsize>256k</FLASHsize>
   </PROCESSOR>
   <PATHS>
-    <LinkerCommandFile>/home/adam/Embedded/Freescale/kdsworkspace/FRDM-KL46z-PEx-sLCD/Project_Settings/Linker_Files/ProcessorExpert.ld</LinkerCommandFile>
+    <LinkerCommandFile>/home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Project_Settings/Linker_Files/ProcessorExpert.ld</LinkerCommandFile>
     <IncludePaths>
       <Path>/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/</Path>
       <Path>/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/iofiles/</Path>
-      <Path>/home/adam/Embedded/Freescale/kdsworkspace/FRDM-KL46z-PEx-sLCD/Sources/</Path>
-      <Path>/home/adam/Embedded/Freescale/kdsworkspace/FRDM-KL46z-PEx-sLCD/Generated_Code/</Path>
+      <Path>/home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Sources/</Path>
+      <Path>/home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Generated_Code/</Path>
     </IncludePaths>
     <SourceCodePaths>
-      <Path>/home/adam/Embedded/Freescale/kdsworkspace/FRDM-KL46z-PEx-sLCD/Generated_Code/</Path>
-      <Path>/home/adam/Embedded/Freescale/kdsworkspace/FRDM-KL46z-PEx-sLCD/Project_Settings/Startup_Code/</Path>
-      <Path>/home/adam/Embedded/Freescale/kdsworkspace/FRDM-KL46z-PEx-sLCD/Sources/</Path>
-      <Path>/home/adam/Embedded/Freescale/kdsworkspace/FRDM-KL46z-PEx-sLCD/Sources/LCD/</Path>
-      <Path>/home/adam/Embedded/Freescale/kdsworkspace/FRDM-KL46z-PEx-sLCD/Sources/si7005/</Path>
+      <Path>/home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Generated_Code/</Path>
+      <Path>/home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Project_Settings/Startup_Code/</Path>
+      <Path>/home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Sources/</Path>
+      <Path>/home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Sources/LCD/</Path>
+      <Path>/home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Sources/si7005/</Path>
     </SourceCodePaths>
   </PATHS>
   <FILES>
     <GeneratedCs>
-      <PathName>/home/adam/Embedded/Freescale/kdsworkspace/FRDM-KL46z-PEx-sLCD/Generated_Code/BitIoLdd1.c</PathName>
-      <PathName>/home/adam/Embedded/Freescale/kdsworkspace/FRDM-KL46z-PEx-sLCD/Generated_Code/BitIoLdd2.c</PathName>
-      <PathName>/home/adam/Embedded/Freescale/kdsworkspace/FRDM-KL46z-PEx-sLCD/Generated_Code/Cpu.c</PathName>
-      <PathName>/home/adam/Embedded/Freescale/kdsworkspace/FRDM-KL46z-PEx-sLCD/Generated_Code/CsIO1.c</PathName>
-      <PathName>/home/adam/Embedded/Freescale/kdsworkspace/FRDM-KL46z-PEx-sLCD/Generated_Code/IO1.c</PathName>
-      <PathName>/home/adam/Embedded/Freescale/kdsworkspace/FRDM-KL46z-PEx-sLCD/Generated_Code/LED_GREEN.c</PathName>
-      <PathName>/home/adam/Embedded/Freescale/kdsworkspace/FRDM-KL46z-PEx-sLCD/Generated_Code/LED_RED.c</PathName>
-      <PathName>/home/adam/Embedded/Freescale/kdsworkspace/FRDM-KL46z-PEx-sLCD/Generated_Code/PE_LDD.c</PathName>
-      <PathName>/home/adam/Embedded/Freescale/kdsworkspace/FRDM-KL46z-PEx-sLCD/Generated_Code/SI7005_I2C.c</PathName>
-      <PathName>/home/adam/Embedded/Freescale/kdsworkspace/FRDM-KL46z-PEx-sLCD/Generated_Code/SegLCD1.c</PathName>
-      <PathName>/home/adam/Embedded/Freescale/kdsworkspace/FRDM-KL46z-PEx-sLCD/Generated_Code/Vectors.c</PathName>
-      <PathName>/home/adam/Embedded/Freescale/kdsworkspace/FRDM-KL46z-PEx-sLCD/Project_Settings/Startup_Code/startup.c</PathName>
-      <PathName>/home/adam/Embedded/Freescale/kdsworkspace/FRDM-KL46z-PEx-sLCD/Sources/Events.c</PathName>
-      <PathName>/home/adam/Embedded/Freescale/kdsworkspace/FRDM-KL46z-PEx-sLCD/Sources/LCD/LCD.c</PathName>
-      <PathName>/home/adam/Embedded/Freescale/kdsworkspace/FRDM-KL46z-PEx-sLCD/Sources/LCD/s401.c</PathName>
-      <PathName>/home/adam/Embedded/Freescale/kdsworkspace/FRDM-KL46z-PEx-sLCD/Sources/ProcessorExpert.c</PathName>
-      <PathName>/home/adam/Embedded/Freescale/kdsworkspace/FRDM-KL46z-PEx-sLCD/Sources/sa_mtb.c</PathName>
-      <PathName>/home/adam/Embedded/Freescale/kdsworkspace/FRDM-KL46z-PEx-sLCD/Sources/si7005/si7005.c</PathName>
+      <PathName>/home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Generated_Code/BitIoLdd1.c</PathName>
+      <PathName>/home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Generated_Code/BitIoLdd2.c</PathName>
+      <PathName>/home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Generated_Code/Cpu.c</PathName>
+      <PathName>/home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Generated_Code/CsIO1.c</PathName>
+      <PathName>/home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Generated_Code/ExtIntLdd1.c</PathName>
+      <PathName>/home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Generated_Code/IO1.c</PathName>
+      <PathName>/home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Generated_Code/LED_GREEN.c</PathName>
+      <PathName>/home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Generated_Code/LED_RED.c</PathName>
+      <PathName>/home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Generated_Code/PE_LDD.c</PathName>
+      <PathName>/home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Generated_Code/PTC.c</PathName>
+      <PathName>/home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Generated_Code/SI7005_I2C.c</PathName>
+      <PathName>/home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Generated_Code/SegLCD1.c</PathName>
+      <PathName>/home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Generated_Code/Vectors.c</PathName>
+      <PathName>/home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Generated_Code/sw1.c</PathName>
+      <PathName>/home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Project_Settings/Startup_Code/startup.c</PathName>
+      <PathName>/home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Sources/Events.c</PathName>
+      <PathName>/home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Sources/LCD/LCD.c</PathName>
+      <PathName>/home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Sources/LCD/s401.c</PathName>
+      <PathName>/home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Sources/ProcessorExpert.c</PathName>
+      <PathName>/home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Sources/sa_mtb.c</PathName>
+      <PathName>/home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Sources/si7005/si7005.c</PathName>
     </GeneratedCs>
     <GeneratedHs>
-      <PathName>/home/adam/Embedded/Freescale/kdsworkspace/FRDM-KL46z-PEx-sLCD/Generated_Code/BitIoLdd1.h</PathName>
-      <PathName>/home/adam/Embedded/Freescale/kdsworkspace/FRDM-KL46z-PEx-sLCD/Generated_Code/BitIoLdd2.h</PathName>
-      <PathName>/home/adam/Embedded/Freescale/kdsworkspace/FRDM-KL46z-PEx-sLCD/Generated_Code/Cpu.h</PathName>
-      <PathName>/home/adam/Embedded/Freescale/kdsworkspace/FRDM-KL46z-PEx-sLCD/Generated_Code/CsIO1.h</PathName>
-      <PathName>/home/adam/Embedded/Freescale/kdsworkspace/FRDM-KL46z-PEx-sLCD/Generated_Code/IO1.h</PathName>
-      <PathName>/opt/Freescale/KDS_1.1.1/eclipse/ProcessorExpert/lib/Kinetis/iofiles/MKL46Z4.h</PathName>
-      <PathName>/home/adam/Embedded/Freescale/kdsworkspace/FRDM-KL46z-PEx-sLCD/Generated_Code/IO_Map.h</PathName>
-      <PathName>/home/adam/Embedded/Freescale/kdsworkspace/FRDM-KL46z-PEx-sLCD/Generated_Code/LED_GREEN.h</PathName>
-      <PathName>/home/adam/Embedded/Freescale/kdsworkspace/FRDM-KL46z-PEx-sLCD/Generated_Code/LED_RED.h</PathName>
-      <PathName>/opt/Freescale/KDS_1.1.1/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/ADC_PDD.h</PathName>
-      <PathName>/opt/Freescale/KDS_1.1.1/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/CMP_PDD.h</PathName>
-      <PathName>/opt/Freescale/KDS_1.1.1/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/COP_PDD.h</PathName>
-      <PathName>/opt/Freescale/KDS_1.1.1/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/DAC_PDD.h</PathName>
-      <PathName>/opt/Freescale/KDS_1.1.1/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/DMAMUX_PDD.h</PathName>
-      <PathName>/opt/Freescale/KDS_1.1.1/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/DMA_PDD.h</PathName>
-      <PathName>/opt/Freescale/KDS_1.1.1/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/FTFA_PDD.h</PathName>
-      <PathName>/opt/Freescale/KDS_1.1.1/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/GPIO_PDD.h</PathName>
-      <PathName>/opt/Freescale/KDS_1.1.1/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/I2C_PDD.h</PathName>
-      <PathName>/opt/Freescale/KDS_1.1.1/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/LCD_PDD.h</PathName>
-      <PathName>/opt/Freescale/KDS_1.1.1/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/LPTMR_PDD.h</PathName>
-      <PathName>/opt/Freescale/KDS_1.1.1/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/MCM_PDD.h</PathName>
-      <PathName>/opt/Freescale/KDS_1.1.1/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/PDD_Types.h</PathName>
-      <PathName>/opt/Freescale/KDS_1.1.1/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/PIT_PDD.h</PathName>
-      <PathName>/opt/Freescale/KDS_1.1.1/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/PORT_PDD.h</PathName>
-      <PathName>/opt/Freescale/KDS_1.1.1/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/RTC_PDD.h</PathName>
-      <PathName>/opt/Freescale/KDS_1.1.1/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/SAI_PDD.h</PathName>
-      <PathName>/opt/Freescale/KDS_1.1.1/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/SIM_PDD.h</PathName>
-      <PathName>/opt/Freescale/KDS_1.1.1/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/SPI_PDD.h</PathName>
-      <PathName>/opt/Freescale/KDS_1.1.1/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/SysTick_PDD.h</PathName>
-      <PathName>/opt/Freescale/KDS_1.1.1/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/TPM_PDD.h</PathName>
-      <PathName>/opt/Freescale/KDS_1.1.1/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/UART0_PDD.h</PathName>
-      <PathName>/opt/Freescale/KDS_1.1.1/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/UART_PDD.h</PathName>
-      <PathName>/opt/Freescale/KDS_1.1.1/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/USB_PDD.h</PathName>
-      <PathName>/home/adam/Embedded/Freescale/kdsworkspace/FRDM-KL46z-PEx-sLCD/Generated_Code/PE_Const.h</PathName>
-      <PathName>/home/adam/Embedded/Freescale/kdsworkspace/FRDM-KL46z-PEx-sLCD/Generated_Code/PE_Error.h</PathName>
-      <PathName>/home/adam/Embedded/Freescale/kdsworkspace/FRDM-KL46z-PEx-sLCD/Generated_Code/PE_LDD.h</PathName>
-      <PathName>/home/adam/Embedded/Freescale/kdsworkspace/FRDM-KL46z-PEx-sLCD/Generated_Code/PE_Types.h</PathName>
-      <PathName>/home/adam/Embedded/Freescale/kdsworkspace/FRDM-KL46z-PEx-sLCD/Generated_Code/SI7005_I2C.h</PathName>
-      <PathName>/home/adam/Embedded/Freescale/kdsworkspace/FRDM-KL46z-PEx-sLCD/Generated_Code/SegLCD1.h</PathName>
-      <PathName>/home/adam/Embedded/Freescale/kdsworkspace/FRDM-KL46z-PEx-sLCD/Sources/Events.h</PathName>
-      <PathName>/home/adam/Embedded/Freescale/kdsworkspace/FRDM-KL46z-PEx-sLCD/Sources/LCD/FRDM-s401.h</PathName>
-      <PathName>/home/adam/Embedded/Freescale/kdsworkspace/FRDM-KL46z-PEx-sLCD/Sources/LCD/LCD.h</PathName>
-      <PathName>/home/adam/Embedded/Freescale/kdsworkspace/FRDM-KL46z-PEx-sLCD/Sources/LCD/LCDConfig.h</PathName>
-      <PathName>/home/adam/Embedded/Freescale/kdsworkspace/FRDM-KL46z-PEx-sLCD/Sources/LCD/LCDHDW.h</PathName>
-      <PathName>/home/adam/Embedded/Freescale/kdsworkspace/FRDM-KL46z-PEx-sLCD/Sources/si7005/si7005.h</PathName>
+      <PathName>/home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Generated_Code/BitIoLdd1.h</PathName>
+      <PathName>/home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Generated_Code/BitIoLdd2.h</PathName>
+      <PathName>/home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Generated_Code/Cpu.h</PathName>
+      <PathName>/home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Generated_Code/CsIO1.h</PathName>
+      <PathName>/home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Generated_Code/ExtIntLdd1.h</PathName>
+      <PathName>/home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Generated_Code/IO1.h</PathName>
       <PathName>/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/iofiles/MKL46Z4.h</PathName>
-      <PathName>/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/PDD_Types.h</PathName>
+      <PathName>/home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Generated_Code/IO_Map.h</PathName>
+      <PathName>/home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Generated_Code/LED_GREEN.h</PathName>
+      <PathName>/home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Generated_Code/LED_RED.h</PathName>
       <PathName>/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/ADC_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/CMP_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/COP_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/DAC_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/DMAMUX_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/DMA_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/FTFA_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/GPIO_PDD.h</PathName>
       <PathName>/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/I2C_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/LCD_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/LPTMR_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/MCM_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/PDD_Types.h</PathName>
+      <PathName>/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/PIT_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/PORT_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/RTC_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/SAI_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/SIM_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/SPI_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/SysTick_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/TPM_PDD.h</PathName>
       <PathName>/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/UART0_PDD.h</PathName>
       <PathName>/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/UART_PDD.h</PathName>
-      <PathName>/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/GPIO_PDD.h</PathName>
-      <PathName>/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/SysTick_PDD.h</PathName>
-      <PathName>/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/LCD_PDD.h</PathName>
-      <PathName>/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/SAI_PDD.h</PathName>
-      <PathName>/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/FTFA_PDD.h</PathName>
-      <PathName>/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/PIT_PDD.h</PathName>
-      <PathName>/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/DAC_PDD.h</PathName>
-      <PathName>/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/LPTMR_PDD.h</PathName>
-      <PathName>/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/COP_PDD.h</PathName>
-      <PathName>/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/DMA_PDD.h</PathName>
-      <PathName>/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/TPM_PDD.h</PathName>
-      <PathName>/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/SIM_PDD.h</PathName>
-      <PathName>/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/PORT_PDD.h</PathName>
-      <PathName>/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/MCM_PDD.h</PathName>
-      <PathName>/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/DMAMUX_PDD.h</PathName>
       <PathName>/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/USB_PDD.h</PathName>
-      <PathName>/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/CMP_PDD.h</PathName>
-      <PathName>/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/SPI_PDD.h</PathName>
-      <PathName>/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/RTC_PDD.h</PathName>
+      <PathName>/home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Generated_Code/PE_Const.h</PathName>
+      <PathName>/home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Generated_Code/PE_Error.h</PathName>
+      <PathName>/home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Generated_Code/PE_LDD.h</PathName>
+      <PathName>/home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Generated_Code/PE_Types.h</PathName>
+      <PathName>/home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Generated_Code/PTC.h</PathName>
+      <PathName>/home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Generated_Code/SI7005_I2C.h</PathName>
+      <PathName>/home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Generated_Code/SegLCD1.h</PathName>
+      <PathName>/home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Generated_Code/sw1.h</PathName>
+      <PathName>/home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Sources/Events.h</PathName>
+      <PathName>/home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Sources/LCD/FRDM-s401.h</PathName>
+      <PathName>/home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Sources/LCD/LCD.h</PathName>
+      <PathName>/home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Sources/LCD/LCDConfig.h</PathName>
+      <PathName>/home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Sources/LCD/LCDHDW.h</PathName>
+      <PathName>/home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Sources/si7005/si7005.h</PathName>
     </GeneratedHs>
   </FILES>
   <OPTIONS>

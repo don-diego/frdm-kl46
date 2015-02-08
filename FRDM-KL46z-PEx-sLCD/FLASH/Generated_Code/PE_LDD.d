@@ -9,7 +9,9 @@ Generated_Code/PE_LDD.o: ../Generated_Code/PE_LDD.c \
  /opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/GPIO_PDD.h \
  /opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/PDD_Types.h \
  ../Generated_Code/LED_RED.h ../Generated_Code/BitIoLdd2.h \
- ../Generated_Code/SI7005_I2C.h
+ ../Generated_Code/SI7005_I2C.h ../Generated_Code/PTC.h \
+ ../Generated_Code/sw1.h ../Generated_Code/ExtIntLdd1.h \
+ /opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/PORT_PDD.h
 
 ../Generated_Code/PE_LDD.h:
 
@@ -44,3 +46,11 @@ Generated_Code/PE_LDD.o: ../Generated_Code/PE_LDD.c \
 ../Generated_Code/BitIoLdd2.h:
 
 ../Generated_Code/SI7005_I2C.h:
+
+../Generated_Code/PTC.h:
+
+../Generated_Code/sw1.h:
+
+../Generated_Code/ExtIntLdd1.h:
+
+/opt/Freescale/KDS_2.0.0/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/PORT_PDD.h:

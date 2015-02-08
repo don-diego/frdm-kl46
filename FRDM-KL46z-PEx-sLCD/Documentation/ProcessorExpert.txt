@@ -24,6 +24,7 @@ Module "SegLCD1"   (component SegLCD_LDD)
                 SetAlternateFrontplaneData.
 
 Module "LED_GREEN" (component BitIO)
+   - LED_GREEN_GetDir -Returns the selected direction.
    - LED_GREEN_SetDir -Sets a pin direction (available only if the direction = _[input/output]_).
    - LED_GREEN_GetVal -Returns the input/output value. If the direction is [input] then the input value of the pin is read and 
                 returned. If the direction is [output] then the last written value is returned (see <Safe mode> property for 
@@ -40,6 +41,7 @@ Module "LED_GREEN" (component BitIO)
                 available only if the direction = _[output]_ or _[input/output]_.
 
 Module "LED_RED"   (component BitIO)
+   - LED_RED_GetDir -Returns the selected direction.
    - LED_RED_SetDir -Sets a pin direction (available only if the direction = _[input/output]_).
    - LED_RED_GetVal -Returns the input/output value. If the direction is [input] then the input value of the pin is read and 
                 returned. If the direction is [output] then the last written value is returned (see <Safe mode> property for 
@@ -78,6 +80,14 @@ Module "SI7005_I2C" (component I2C_LDD)
                 the buffer should not be changed until the transmission is complete. Event "OnMasterBlockReceived"can be used 
                 to detect the end of the reception. This method is available only for the MASTER or MASTER - SLAVE mode.
 
-Module "Cpu"       (component MKL46Z256MC4)
+Module "PTC"       (component Init_GPIO_VAR0)
+   - PTC_Init -This method initializes registers of the GPIO module according to the Peripheral Initialization settings. Call 
+                this method in user code to initialize the module. By default, the method is called by PE automatically; see 
+                "Call Init method" property of the component for more details.
+
+Module "sw1"       (component ExtInt)
+   - sw1_GetVal -Returns the actual value of the input pin of the component.
+
+Module "Cpu"       (component MKL46Z256LL4)
 
 ===================================================================================

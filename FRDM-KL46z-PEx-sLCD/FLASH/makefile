@@ -39,7 +39,7 @@ all: FRDM-KL46z-PEx-sLCD.elf secondary-outputs
 FRDM-KL46z-PEx-sLCD.elf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: Cross ARM C Linker'
-	arm-none-eabi-gcc -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -gstrict-dwarf -T /home/adam/Embedded/Freescale/kdsworkspace/FRDM-KL46z-PEx-sLCD/Project_Settings/Linker_Files/ProcessorExpert.ld -Xlinker --gc-sections -Wl,-Map,"FRDM-KL46z-PEx-sLCD.map" -n -o "FRDM-KL46z-PEx-sLCD.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -gstrict-dwarf -T /home/adam/Embedded/git_repo/FRDM-KL46z-PEx-sLCD/Project_Settings/Linker_Files/ProcessorExpert.ld -Xlinker --gc-sections -Wl,-Map,"FRDM-KL46z-PEx-sLCD.map" -n -o "FRDM-KL46z-PEx-sLCD.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 

@@ -1,7 +1,7 @@
 /* ###################################################################
 **     Filename    : Events.h
 **     Project     : ProcessorExpert
-**     Processor   : MKL46Z256VMC4
+**     Processor   : MKL46Z256VLL4
 **     Component   : Events
 **     Version     : Driver 01.00
 **     Compiler    : GNU C Compiler
@@ -42,6 +42,9 @@
 #include "LED_RED.h"
 #include "BitIoLdd2.h"
 #include "SI7005_I2C.h"
+#include "PTC.h"
+#include "sw1.h"
+#include "ExtIntLdd1.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -102,6 +105,20 @@ void SI7005_I2C_OnMasterBlockSent(LDD_TUserData *UserDataPtr);
 */
 /* ===================================================================*/
 void SI7005_I2C_OnMasterBlockReceived(LDD_TUserData *UserDataPtr);
+
+/*
+** ===================================================================
+**     Event       :  sw1_OnInterrupt (module Events)
+**
+**     Component   :  sw1 [ExtInt]
+**     Description :
+**         This event is called when an active signal edge/level has
+**         occurred.
+**     Parameters  : None
+**     Returns     : Nothing
+** ===================================================================
+*/
+void sw1_OnInterrupt(void);
 
 /* END Events */
 

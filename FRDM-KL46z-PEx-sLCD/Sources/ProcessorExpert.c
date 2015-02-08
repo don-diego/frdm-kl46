@@ -1,7 +1,7 @@
 /* ###################################################################
 **     Filename    : ProcessorExpert.c
 **     Project     : ProcessorExpert
-**     Processor   : MKL46Z256VMC4
+**     Processor   : MKL46Z256VLL4
 **     Version     : Driver 01.01
 **     Compiler    : GNU C Compiler
 **     Date/Time   : 2013-07-24, 17:43, # CodeGen: 0
@@ -40,6 +40,9 @@
 #include "LED_RED.h"
 #include "BitIoLdd2.h"
 #include "SI7005_I2C.h"
+#include "PTC.h"
+#include "sw1.h"
+#include "ExtIntLdd1.h"
 /* Including shared modules, which are used for whole project */
 #include "PE_Types.h"
 #include "PE_Error.h"
@@ -53,6 +56,7 @@
 LDD_TError Error;
 LDD_TDeviceData *MySegLCDPtr;
 LDD_TDeviceData *si7005_device_data_p;
+volatile bool sw1_pressed_flag;
 
 uint8_t rH, temperat;
 char InpData[16];
@@ -108,6 +112,12 @@ int main(void)
   si7005_open(&si7005_device_data_p);
   for(;;)
   {
+	  if(sw1_pressed_flag == TRUE)
+	  {
+	      LED_RED_SetDir(!LED_GREEN_GetDir());
+          LED_GREEN_SetDir(!LED_GREEN_GetDir());
+          sw1_pressed_flag = FALSE;
+	  }
 	  read_rH( &rH );
 	  for(i=0;i<1000000;i++);
 	  read_temperature(&temperat);
@@ -130,6 +140,7 @@ int main(void)
    	      LED_RED_SetVal();
    	  }
 	  for(i=0;i<10000000;i++);
+
   }
   
 //  for(;;)

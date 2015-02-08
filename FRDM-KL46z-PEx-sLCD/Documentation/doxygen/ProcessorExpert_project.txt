@@ -28,6 +28,8 @@
 - \subpage BitIoLdd1
 - \subpage BitIoLdd2
 - \subpage SI7005_I2C
+- \subpage PTC
+- \subpage ExtIntLdd1
 
 */
 

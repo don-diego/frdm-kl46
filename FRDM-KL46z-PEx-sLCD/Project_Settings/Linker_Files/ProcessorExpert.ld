@@ -6,11 +6,11 @@
 /*##                                   */
 /*##     Project   : ProcessorExpert   */
 /*##                                   */
-/*##     Processor : MKL46Z256VMC4     */
+/*##     Processor : MKL46Z256VLL4     */
 /*##                                   */
 /*##     Compiler  : GNU C Compiler    */
 /*##                                   */
-/*##     Date/Time : 2014-11-30, 10:37, # CodeGen: 22 */
+/*##     Date/Time : 2015-02-08, 16:40, # CodeGen: 40 */
 /*##                                   */
 /*##     Abstract  :                   */
 /*##                                   */
